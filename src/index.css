@@ -1,13 +1,91 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@100;200;400&display=swap');
+
+
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-titulo{
+  font-family: 'Black Ops One', cursive !important;
+  
+}
+
+.headerComponent {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+ 
+}
+
+.videoContainer {
+  width: 100%;
+  height: 100%;
+  top: -100px;
+  left: 0;
+  position: absolute;
+}
+
+.absolutee {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(11, 11, 12, 0.43) 0%,
+    #0a0909 100%
+  ); 
+}
+
+.headerTitle {
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+.headerTitle h1 {
+    font-size: 80px;
+    font-family: "Pushster", cursive;
+    letter-spacing: 5px;
+  }
+  .headerTitle h2 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+@media screen and (min-width: 4000px) {
+  .videoContainer video {
+    width: 100%;
+  }
+}
+
+.background-content {
+  background: #0a0909;
+}
+
+
+.botonActive{
+  left: 0px;
+  transition: 1s all;
+}
+.botonDesactive{
+  left: -400px;
+  transition: 1s all;
+  
+}
+
+.modal{
+    position: absolute;
+    top: 0px;
+    z-index: 100000
+  
+   
 }
