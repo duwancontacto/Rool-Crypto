@@ -36,12 +36,6 @@ function App() {
 
 
         <h3 className='text-[58px] font-bold mb-4 text-[#f6bd60] mt-6 font-titulo'>GOOD ROOL CRYPTO</h3>
-        {/*      <div className='flex'>
-          <p className='text-[#fff] font-bold text-md'>(SCI-FI NFT GAME)</p>
-          <p className='text-[rgba(0,0,0,0.77)] font-bold text-md mx-2'>(PLAY TO EARN)</p>
-          <p className='text-[#fff] font-bold text-md'>(ON BINANCE SMART CHAIN)</p>
-
-        </div> */}
 
         <div className='flex flex-col justify-end items-end w-full px-6'>
           <button className='bg-[#4361ee] px-2 py-1 rounded-2xl cursor-pointer'><GrInstagram /></button>
