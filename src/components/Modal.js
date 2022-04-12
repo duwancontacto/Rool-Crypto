@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { } from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 export default function Modal({ loadingDisable, modal, setModal, screen, children, }) {

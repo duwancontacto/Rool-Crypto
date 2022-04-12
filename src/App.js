@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Landing from "../src/components/Landing"
-import Mint from './components/Mint.js/Mint'
+/* import Mint from './components/Mint.js/Mint' */
 
 
 

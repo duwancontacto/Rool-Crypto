@@ -4,7 +4,7 @@ import fotoNFT1 from "../../assets/img/FotoNFT3.png"
 import fotoNFT2 from "../../assets/img/FotoNFT3.png"
 import fotoNFT3 from "../../assets/img/FotoNFT3.png"
 
-import fondoPhone from "../../assets/img/phone-background.png"
+
 
 
 /* 

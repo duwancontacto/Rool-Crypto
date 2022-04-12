@@ -46,10 +46,10 @@ function App() {
 
 
                 <div className='flex flex-col justify-end items-end w-full px-6'>
-                    <a target={"_blank"} href='https://www.instagram.com/goodrollcrypto/' className=' px-3 py-1 rounded-2xl cursor-pointer  fondo-botones '><GrInstagram />  </a>
-                    <a target={"_blank"} href='https://twitter.com/GoodRollCrypto?t=4C2qXBsf84nSYZPnHATkzA&s=08' className=']  my-2 px-3 py-1 rounded-2xl cursor-pointer  fondo-botones '><FiTwitter /></a>
-                    <a target={"_blank"} href='https://discord.com/invite/Da9n28mvs2' className='  px-3 py-1  rounded-2xl cursor-pointer  fondo-botones '><SiDiscord /> </a>
-                    <a target={"_blank"} href='https://t.me/+1tQ6xeQ5e0s4YzI8' className='  my-2 px-3 py-1  rounded-2xl cursor-pointer  fondo-botones '><BsTelegram /> </a>
+                    <a target={"_blank"} href='https://www.instagram.com/goodrollcrypto/' rel="noreferrer" className=' px-3 py-1 rounded-2xl cursor-pointer  fondo-botones '><GrInstagram />  </a>
+                    <a target={"_blank"} href='https://twitter.com/GoodRollCrypto?t=4C2qXBsf84nSYZPnHATkzA&s=08' rel="noreferrer" className=']  my-2 px-3 py-1 rounded-2xl cursor-pointer  fondo-botones '><FiTwitter /></a>
+                    <a target={"_blank"} href='https://discord.com/invite/Da9n28mvs2' rel="noreferrer" className='  px-3 py-1  rounded-2xl cursor-pointer  fondo-botones '><SiDiscord /> </a>
+                    <a target={"_blank"} href='https://t.me/+1tQ6xeQ5e0s4YzI8' rel="noreferrer" className='  my-2 px-3 py-1  rounded-2xl cursor-pointer  fondo-botones '><BsTelegram /> </a>
 
                 </div>
 
